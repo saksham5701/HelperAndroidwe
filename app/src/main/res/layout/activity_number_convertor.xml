@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NumberConvertor">
+
+    <Button
+        android:id="@+id/B2D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Binary To Decimal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <Button
+        android:id="@+id/D2B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decimal To Binary"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <Button
+        android:id="@+id/D2H"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decimal To Hex"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <Button
+        android:id="@+id/h2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="651dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Number Convertor"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="127dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
